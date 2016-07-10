@@ -23,6 +23,13 @@ Then add this to `config/app.php`
 ];
 ```
 
+Or for newer versions of Laravel:
+```php
+'providers' => [
+	Conner\Kint\KintServiceProvider::class,
+];
+```
+
 Optionally setup the [config/kint.php](config/kint.php) file
 
     php artisan vendor:publish
